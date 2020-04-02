@@ -27,3 +27,39 @@
 	border-radius: 10rem;
 	background-color: #fff;
 }
+#headertitlem{
+	font-family: font-name6;
+	font-size: 3rem;
+}
+.aa{
+	margin-bottom: 30px;
+}
+.fas3{
+	background-image: url(image/mod.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	background-position: bottom;
+}
+.fas1{
+	background-image: url(image/mod.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	background-position: top;
+}
+.gge1{
+	font-family: font-name6;
+	font-size: 1.6rem;
+}
+#myBtn{
+	background-color: #c56a5c;
+	color: black;
+}
+.gge{
+	font-family: font-name6;
+	font-size: 3rem;
+}
+.fox{
+	font-family: font-name6;
+}

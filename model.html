@@ -23,10 +23,10 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="about.html">About</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Models</a>
@@ -35,7 +35,7 @@
 						<a class="nav-link" href="#">Blog</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">SignIn/SignUp</a>
@@ -45,16 +45,13 @@
 		</nav>
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-10 my-5">
-					<h1 class="text-white display-3 text-center">Your Career of a Model</h1>
+				<div class="col-10 my-5 mt-5">
+					<div>
+						<h1 class="mt-5"></h1>
+					</div>
+					<h1 class="text-white display-3 text-center" id="headertitlem"> Contact Us </h1>
 					<hr id="divider" class="d-lg-block d-none">
 				</div>
-				<div class="col-8 text-center d-lg-block d-none">
-					<p class="text-white">We are Professional Model Agency Based in London.</p>
-					<div class="d-lg-block d-none">
-						<a href="" class="btn text-dark" id="headermain">Contact</a>
-					</div>
-				</div>			
 			</div>
 		</div>
 	</div>
@@ -84,7 +81,7 @@
 					<img src="image/md1.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Allie</button>
 				</div>
 			</div>
 			<div class="col-lg-3 my-3">
@@ -92,7 +89,7 @@
 					<img src="image/md2.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Selena</button>
 				</div>
 			</div>
 			<div class="col-lg-3 my-3">
@@ -100,7 +97,7 @@
 					<img src="image/md3.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Cinderlla</button>
 				</div>
 			</div>
 			<div class="col-lg-3 my-3">
@@ -108,7 +105,7 @@
 					<img src="image/md4.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Pinky</button>
 				</div>
 			</div>
 			<div class="col-lg-3 my-3">
@@ -116,7 +113,7 @@
 					<img src="image/md5.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Queen</button>
 				</div>
 			</div>
 			<div class="col-lg-3 my-3">
@@ -124,7 +121,7 @@
 					<img src="image/md6.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Princess</button>
 				</div>
 			</div>
 			<div class="col-lg-3 my-3">
@@ -132,7 +129,7 @@
 					<img src="image/md9.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Ketty</button>
 				</div>
 			</div>
 			<div class="col-lg-3 my-3">
@@ -140,7 +137,7 @@
 					<img src="image/md8.jpg" class="card-img-top">
 				</div>
 				<div class="card-img-overlay">
-					<button class="btn btn-light btn-block">Card Title</button>
+					<button class="btn btn-light btn-block">Angela</button>
 				</div>
 			</div>
 		</div>
@@ -164,7 +161,26 @@
 	</nav>
 	<div>
 		<div class="container mt-5" style="background-color: #c56a5c">
-			<div class="row">
+			<div class="row footer">
+			<div class="col-12 top pagination justify-content-center">
+				<br><br>
+				<i class="fas fa-angle-up mt-5" onclick="topFunction()" id="myBtn" title="Up"></i>
+				<script>
+					var mybutton = document.getElementById("myBtn");
+					window.onscroll = function() {scrollFunction()};
+					function scrollFunction() {
+						if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+							mybutton.style.display = "block";
+						} else {
+							mybutton.style.display = "none";
+						}
+					}
+					function topFunction() {
+						document.body.scrollTop = 0;
+						document.documentElement.scrollTop = 0;
+					}
+				</script><br><br>	
+			</div>
 				<div class="col-lg-3 my-5">
 					<h2>About Me</h2>
 					<p>Far far away, behind the mountain, far for the countries Vokalia and Consonantia, their live the blind texts</p>
